@@ -25,7 +25,7 @@ def main():
             result = number1 * number2
         elif operation == 'divide':
             if number2 == 0:
-                result = 'Invalid Error'
+                result = 'Invalid Error, division is zero'
             else:
                 result = number1 / number2
         # server sends a request to client and receives response
